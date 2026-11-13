@@ -1,0 +1,503 @@
+/*#include <stdio.h>
+int main()
+{
+ int n,sum=0;
+ printf("Enter the number:");//for factorial fact=fact*i
+ scanf("%d",&n);
+ for(int i=1;i<=n;i++)
+ {
+    sum=sum+i;
+ }
+ printf("sum=%d",sum);
+ return 0;
+}*/
+/* to swap the value of two variable*/
+/*# include<stdio.h>
+int main()
+{
+   int a=5;
+   int b=6;
+   printf("NEter two number:");
+   scanf("%d%d",&a,&b);
+   int temp=a;
+   a=b;
+   b=temp;
+   printf("After swapping number.\n");
+   printf("%d\n",a);
+   printf("%d\n",b);
+   return 0;
+}/*
+/* to generate fibonacci series upto 10*/
+/*#include <stdio.h>
+int main()
+{
+   int a,b;
+   printf("Enter the two value:");
+   scanf("%d%d",&a,&b);
+   int temp=a;
+   a=b;
+   b=temp;
+   {
+      printf("After swapping number.\n");
+   }
+   {
+      printf("%d\n",a);
+   }
+   {
+      printf("%d\n",b);
+   }
+   return 0;
+}*/
+/*#include <stdio.h>
+int main()
+{
+   int a, b, c;
+   a = 0;
+   b = 1;
+   for (int i = 1; i <= 10; i++)
+   {
+      printf("%d", a);
+      c = a + b;
+      a = b;
+      b = c;
+   }
+   return 0;
+}*/
+/*#include<stdio.h>
+int main()
+{
+   int i;
+   for(i=200;i<=300;i++)
+   {
+      if(i%2==0&&i%3==0&&i%5==0)
+      {
+         printf("%d\n",i);
+      }
+   }
+   return 0;
+}
+#include<stdio.h>
+int main()
+{
+   int n,sum=0;
+   int i;
+   printf("Enter the number.");
+   scanf("%d",&n);
+   for(i=1;i<=n;i++)
+   {
+      sum=sum+i;
+   }
+   printf("sum is %d",sum);
+   return 0;
+}*/
+/*#include<stdio.h>
+int main()
+{
+   int n,fact=1;
+   int i;
+   printf("Enter the number.\n");
+   scanf("%d",&fact);
+   for(i=1;i<=n,i++)
+   {
+      fact=fact*i;
+   }
+   printf("FACTORIAL IS %d",fact);
+   return 0;
+}*/
+/*#include <stdio.h>
+int main()
+{
+   int n;
+   do
+   {
+      printf("Enter the number:");
+      scanf("%d", &n);
+      printf("%d", n);
+      if (n % 2 != 0)
+      {
+         break;
+      }
+
+   } while (1);
+   printf("Thhankss");
+   return 0;
+}*/
+// to print odd number from 5 to 50
+/*#include<stdio.h>
+int main()
+{
+     for(int i=5;i<=50;i++)
+     if(i%2 !=0)
+     {
+      printf("%d",i);
+     }
+     return 0;
+}*/
+/*#include <stdio.h>
+int main()
+{
+   int n;
+   printf("Enter the number.");
+   scanf("%d", &n);
+
+   int fact = 1;10
+   for (int i = 1; i <= n; i++)
+   {
+      fact = fact * i;
+   }
+   printf("fact is %d", fact) return 0;
+}*/
+// #include <stdio.h>
+/*int main()
+{
+   int n;
+   printf("Enter the number.");
+   scanf("%d", &n);
+   for (int i = 10; i >= 1; i--)
+   {
+      printf("%d\n", n * i);
+   }
+   return 0;
+}*/
+/*#include <stdio.h>
+void hello();
+void goodbye();
+int main()
+{
+   hello();
+   goodbye();
+   hello();
+   goodbye();
+   hello();
+   goodbye();
+   hello();
+   goodbye();
+   hello();
+   goodbye();
+   return 0;
+}
+void hello(){
+   printf("hello.\n");
+}
+void goodbye(){
+   printf("goodbye.\n");
+}*/
+
+/*#include <stdio.h>
+
+void nepali();
+void french();
+
+int main()
+{
+    char n;
+
+    printf("Enter your identity (n for Nepali, f for French):\n");
+    scanf(" %c", &n);
+
+    if (n == 'n')
+    {
+        nepali();
+    }
+    else if (n == 'f')
+    {
+        french();
+    }
+    else
+    {
+        printf("Invalid identity!\n");
+    }
+
+    return 0;
+}
+
+void nepali()
+{
+    printf("Namaste.\n");
+}
+
+void french()
+{
+    printf("Bonjour.\n");
+}*/
+/*#include <stdio.h>
+int sum(int a, int b);
+int main()
+{
+   int a;
+   printf("Enter the first number.\n ");
+   scanf("%d", &a);
+   int b;
+   printf("Enter the second number.\n");
+    scanf("%d", &b);
+   int s = sum(a, b);
+   printf("Sum is %d", s);
+   return 0;
+}
+int sum(int a, int b)
+{
+   return a + b;
+}
+*/
+/*#include <stdio.h>
+void table(int x);
+int main()
+{
+   int x;
+   printf("Enter the number.");
+   scanf("%d", &x);
+   table(x);
+   return 0;
+}
+void table(int x)
+{
+   for (int i = 1; i <= 10; i++)
+      printf("%d\n",i * x);
+}*/
+/*#include <stdio.h>
+void price(float value);
+int main()
+{
+   float value = 100;
+   price(value);
+   printf("Original value is %f",value);
+   return 0;
+}
+void price(float value)
+{
+   value = value + (0.17 * value);
+   printf("value is %f", value);
+}*/
+/*#include<math.h>
+
+void library(float value);
+int main(){
+float n;
+printf("Enter the nuumber");
+scanf("%f",&n);
+library(n);
+return 0;
+}
+void library(float value){
+   value=pow(value,2);
+
+   printf("value is %f",value);
+}*/
+/*#include <stdio.h>
+#include <math.h>
+void square(float value);
+void rectangle(float l, float b);
+void circle(float talu);
+int main()
+{
+   float l;
+   printf("Enter the length ");
+   scanf("%f", &l);
+   float b;
+   printf("Enter the breadth ");
+   scanf("%f", &b);
+   float r;
+   printf("Enter the radius of the circle");
+   scanf("%f", &r);
+   square(l);
+   rectangle(l, b);
+   circle(r);
+   return 0;
+}
+void square(float value)
+{
+   value = pow(value, 2);
+   printf("Area of the square is %f", value);
+}
+void rectangle(float l, float b)
+{
+   float area = l * b;
+   printf("Area of the rectangle is %f", area);
+}
+void circle(float talu)
+{
+   talu = 3.14 * pow(talu, 2);
+   printf("Area of the circle is %f", talu);
+}*/
+/*#include <stdio.h>
+int fact(int n);
+int main()
+{
+   printf("Factorial is %d", fact(6));
+   return 0;
+}
+int fact(int n)
+{
+   if (n == 0)
+   {
+      return 1;
+   }
+   int factNm1 = (n - 1);
+   int factN = factNm1 * n;
+   return factN;
+}*/
+/*#include<stdio.h>
+float temp(float celsuis);
+int main()
+{
+   temp(9);
+   return 0;
+}
+float temp(float celsuis){
+   float far=celsuis*(9.0/5.0)+32;
+   printf("The value is %2f",far);
+   return far;
+
+}*/
+/*#include<stdio.h>
+int calcpercentage(int sc,int math,int sanskrit);
+int main()
+{
+   int sc=98;
+   int math=50;
+   int sanskrit=99;
+   printf("The percentage is %d",calcpercentage(sc,math,sanskrit));
+   return 0;
+}
+int calcpercentage(int sc,int math,int sanskrit){
+   return ((sc+math+sanskrit)/3);
+
+}*/
+
+/*#include <stdio.h>
+
+void fibo(int a, int b, int c);
+
+int main()
+{
+    int a = 0, b = 1, c;
+
+    fibo(a, b, c);
+
+    return 0;
+}
+
+void fibo(int a, int b, int c)
+{
+    for (int i = 0; i <= 10; i++)
+    {
+        printf("%d ", a);
+
+        c = a + b;
+        a = b;
+        b = c;
+    }
+}*/
+/*#include<stdio.h>
+int main()
+{
+    int *ptr;
+    int x;
+    ptr=&x;
+    *ptr=0;
+    printf("x=%d\n",x);
+    printf("ptr=%d\n",*ptr);
+    *ptr +=5;
+    printf("x=%d\n",x);
+    printf("ptr=%d\n",*ptr);
+    return 0;
+}*/
+// pointer to pointer
+/*#include<stdio.h>
+int main()
+{
+   int age=22;
+   int *ptr=&age;
+   int **pptr=&ptr;
+   int ***utp=&pptr;
+   printf("%p\n",&age);
+   printf("%p\n",&ptr);
+   printf("%p\n",&pptr);
+   printf("%p\n",&utp);
+
+   return 0;
+}*/
+/*#include<stdio.h>
+int main()
+{
+   int i=5;
+   int *ptr=&i;
+   int **pptr=&ptr;
+   printf("Value is %d",*ptr);
+   return 0;
+}*/
+/*#include<stdio.h>
+void swap(int a,int b);
+
+int main()
+{
+   int x=4;
+   int y=5;
+   swap(x,y);
+   printf("x=%d & y=%d",x,y);
+   return 0;
+
+   }
+void swap (int a, int b){
+   int t=a;
+   a=b;
+   b=t;
+   printf("a=%d&b=%d",a,b);
+}*/
+/*#include<stdio.h>
+void printaddress(int a,int b,int *sum,int *prod,int *avg );
+int main()
+{
+   int a=5; int b=7;
+   int sum,prod,avg;
+printaddress(a,b,&sum,&prod,&avg);
+printf("sum=%d,prod=%d,avg=%d",sum,prod,avg);
+
+ return 0;
+
+
+}
+void printaddress(int a,int b,int *sum,int *prod,int *avg){
+   *sum=a+b;
+   *prod=a*b;
+  *avg=(a+b)/2;
+}*/
+//       Array
+
+/*#include<stdio.h>
+int main()
+{
+   float price[3];
+   printf("Enter the 3 prices:");
+   scanf("%2f",&price[0]);
+   scanf("%2f",&price[1]);
+   scanf("%2f",&price[2]);
+   printf("Price 1 : %2f\n",price[0]+(0.18*price[0]));
+   printf("Price 2 : %2f\n",price[1]+(0.18*price[1]));
+   printf("Price 3 : %f\n",price[2]+(0.18*price[2]));
+   return 0;*/
+/*#include<stdio.h>
+int main()
+{
+int marks[]={1,2,3};
+scanf("%d",&marks);
+printf("marks");
+return 0;
+}*/
+
+#include<stdio.h>
+int main()
+{
+   for(int i=1;i<=5;i++)
+   {
+      for(int j=1;j<=i;j++)
+
+   }
+   {
+      printf("%d",j);
+   }
+   printf("\n");
+   return 0;
+}
+
+
